@@ -1,0 +1,77 @@
+# --- Node / General ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+debug.log*
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Opcional: si quieres versionar el lockfile, elimina la línea correspondiente arriba.
+
+# --- Build output (Vite) ---
+dist/
+build/
+*.local
+
+# --- Vite cache ---
+.vite/
+
+# --- TypeScript ---
+*.tsbuildinfo
+
+# --- Environment files ---
+.env
+.env.*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Mantén tus ejemplos:
+!env.example
+!.env.example
+
+# --- Logs ---
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- Editor / IDE ---
+# IntelliJ / WebStorm
+.idea/
+*.iml
+out/
+
+# VS Code (por si lo usas también)
+.vscode/
+.history/
+
+# --- OS specific ---
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# --- Tests / Coverage ---
+coverage/
+.nyc_output/
+
+# --- Misc ---
+*.swp
+*.swo
+*.tmp
+*.temp
